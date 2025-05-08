@@ -26,7 +26,7 @@
 
 ## 2. UniLSeg 自动标注引擎复现
 
-在本部分，我们尝试复现 [UniLSeg] 中的自动标注（Box-labeled）模块：
+在本部分，我们尝试复现 [UniLSeg] 中的自动标注（automatic annotation engine）模块：
 
 - 仅展示 **Box-labeled** 数据的标注处理流程  
 - 包含数据预处理、标注生成脚本及可视化示例  
