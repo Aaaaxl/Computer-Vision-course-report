@@ -10,16 +10,15 @@
 
 ## 1. DeepLabV3+ 任务模型比较
 
-我们基于 [DeepLabV3+][1] 框架，分别选择了两种主干网络以及数据集进行对比实验：
+我们基于 [DeepLabV3+] 框架，分别选择了两种主干网络以及数据集进行对比实验：
 
 - **MobileNetV2 (Cityscapes) &ensp;——&ensp;OS=16**  
-  实验基于 [MobileNetV2][2]，在 [Cityscapes][3] 数据集上进行训练与测试，主要考察轻量化模型在城市场景分割任务中的表现。
+  实验基于 [MobileNet]，在 [Cityscapes] 数据集上进行训练与测试，主要考察轻量化模型在城市场景分割任务中的表现。
 
 - **ResNet50 (VOC) &ensp;——&ensp;OS=16**  
-  实验基于 [ResNet-50][4]，在 [PASCAL VOC 2012][5] 数据集上进行训练与测试，侧重评估中等规模网络在通用目标分割任务中的性能。
+  实验基于 [ResNet-50]，在 [PASCAL VOC 2012] 数据集上进行训练与测试，侧重评估中等规模网络在通用目标分割任务中的性能。
 
 > **结果对比**  
-> - 训练集内 mIoU  
 > - 训练集外（跨域/其它任务）泛化性能  
 > - 模型参数量与推理速度  
 
@@ -27,7 +26,7 @@
 
 ## 2. UniLSeg 自动标注引擎复现
 
-在本部分，我们尝试复现 [UniLSeg][6] 中的自动标注（Box-labeled）模块：
+在本部分，我们尝试复现 [UniLSeg] 中的自动标注（Box-labeled）模块：
 
 - 仅展示 **Box-labeled** 数据的标注处理流程  
 - 包含数据预处理、标注生成脚本及可视化示例  
@@ -40,8 +39,6 @@
 
 ---
 
-## 文件结构
-
 ## 运行环境
 
 - Python ≥ 3.7  
@@ -52,4 +49,4 @@
 
 ## 引用
   
-[UniLSeg: Universal Language-guided Segmentation](https://github.com/xxxxx/UniLSeg) (请根据实际论文或项目主页补充完整引用信息)  
+[UniLSeg: Universal Segmentation at Arbitrary Granularity with Language Instruction](https://arxiv.org/abs/2312.01623)
