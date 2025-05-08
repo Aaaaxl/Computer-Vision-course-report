@@ -49,4 +49,4 @@
 
 ## 引用
   
-[UniLSeg: Universal Segmentation at Arbitrary Granularity with Language Instruction](https://arxiv.org/abs/2312.01623)
+[UniLSeg: 《Universal Segmentation at Arbitrary Granularity with Language Instruction》](https://arxiv.org/abs/2312.01623)
