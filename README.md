@@ -11,11 +11,11 @@
 ## 重要声明：
 
 本仓库并没有对任何模型做改进工作，只是单纯地使用 DeepLabV3+、SAM、BLIP、CLIP、UniLSeg 模型，并加载了作者训练好的权重，做了一些效果呈现的可视化工作。如果你想查看本仓库的内容，请点开各文件夹下的 jupyter 文件即可，如果你想详细了解各模型的源码，我们在此贴上了各源码的链接：
-[DeepLabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch)
-[SAM](https://github.com/facebookresearch/segment-anything)
-[BLIP](https://github.com/salesforce/BLIP)
-[CLIP](https://github.com/openai/CLIP)
-[UniLSeg](https://github.com/yongliu20/UniLSeg)
+[DeepLabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch)  
+[SAM](https://github.com/facebookresearch/segment-anything)  
+[BLIP](https://github.com/salesforce/BLIP)  
+[CLIP](https://github.com/openai/CLIP)  
+[UniLSeg](https://github.com/yongliu20/UniLSeg)  
 
 ## 1. DeepLabV3+ 任务模型比较
 
